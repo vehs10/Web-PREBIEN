@@ -1,0 +1,339 @@
+/*-------------------------------------------------------SECCION LOGO Y NAVBAR------------------------------------------------------------*/
+*{
+    font-size: 18px;
+}
+.site-header {
+    background-color: white;
+}
+
+.navbar a {
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+    font-family: 'Baskervville', serif;
+    color: #3D3C42;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.navbar a:hover,
+a:focus {
+    background-size: 100% 2px;
+}
+
+.logo {
+    margin: 0px 20px;
+    width: 220px;
+}
+.logo:hover, .logo:focus{
+    background-size: none;
+}
+
+/*-------------------------------------------------------SECCION HOME------------------------------------------------------------*/
+
+img {
+    max-width: 90%;
+}
+
+.rec {
+    background: #faf7c5;
+}
+
+.inicio {
+    margin-top: 130px;
+    margin-bottom: 70px;
+    background-color: #FAF7C5;
+    height: 100%;
+}
+
+.text-content h1,
+.text-content p {
+    width: 95%;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.texto-inicio {
+    font-family: IBM Plex Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 56px;
+    text-align: center;
+    color: #000000;
+    padding-top: 80px;
+}
+
+.img-inicio {
+    background-image: url(../img/foto1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+}
+
+.bg-lugares {
+    background-image: url(../img/foto2.png)
+}
+
+.subtitulo2 {
+    margin-right: 84px;
+    margin-left: 84px;
+    margin-top: 24px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    /* or 139% */
+    color: #000000;
+}
+
+.subtitulo1 {
+    margin-top: 24px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    /* or 130% */
+    text-align: center;
+    color: #000000;
+}
+
+h6 {
+    width: 44px;
+    height: 23px;
+    left: 491px;
+    top: 3998px;
+    font-family: IBM Plex Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 139% */
+    color: #000000;
+}
+
+.texto_inicio {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 40px;
+    /* or 139% */
+    color: #000000;
+}
+
+.texto_inicio1 {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 40px;
+    margin-right: 73px;
+    /* or 139% */
+    color: #000000;
+}
+
+.enunciados, .number-edit {
+    font-family: IBM Plex Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 35px;
+    margin-bottom: 48px;
+    text-align: center;
+    color: #000000;
+    margin: 20px 0px;
+}
+
+.number-edit{
+font-size: 30px;
+color: #9ACEA8;
+font-weight: bold;
+}
+
+
+.testimonios {
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+.frase {
+    margin-left: 102px;
+    margin-right: 102px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.texto-testimonios {
+    margin-top: 34px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    /* or 139% */
+    text-align: center;
+    color: #000000;
+}
+
+.card {
+    box-shadow: 0px 4px 20px rgba(114, 114, 114, 0.15);
+}
+
+
+/*-------------------------------------------------------SECCION SOBRE NOSOTROS-----------------------------------------------------------*/
+
+.jumbotron {
+    margin-left: 0px;
+    margin-top: 96px;
+    background-color: #b7e0f7 !important;
+}
+
+.display-5 {
+    font-family: IBM Plex Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 56px;
+    color: #000000;
+}
+
+.nosotros {
+    margin-top: 124px;
+}
+
+div.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+div.container-fluid {
+    padding: 0px;
+}
+
+.texto {
+    margin-top: 64px;
+}
+
+.texto1 {
+    font-family: Alegreya Sans;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.equipo {
+    font-family: Alegraya Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px !important;
+    line-height: 50px;
+    margin-top: 64px;
+    /* or 143% */
+    text-align: center;
+    color: #000000;
+}
+
+.seccion {
+    margin-bottom: 111px;
+    margin-top: 64px;
+    background: #b7e0f7;
+}
+
+.rounded-circle {
+    margin-left: 126px;
+    margin-right: 127px;
+    margin-top: 179px;
+    margin-bottom: 346px;
+}
+
+
+/*Estilos sobre servicios*/
+
+.jumbotron {
+    background: #cce7d3;
+}
+
+
+/*-------------------------------------------------------FOOTER------------------------------------------------------------*/
+
+.site-footer {
+    background: #FBF7C6;
+    padding: 30px 0px;
+}
+
+.nav-footer {
+    padding: 20px 0px;
+}
+
+.nav-footer a {
+    text-decoration: none;
+    color: #000000;
+    margin-left: 15px;
+}
+
+a i {
+    color: black;
+    font-size: 30px;
+    margin: 20px 10px;
+}
+
+a i:hover {
+    transform: scale(1.2);
+    transition: all ease-in-out 1s;
+    color: #7c7a7a;
+}
+
+
+/*-------------------------------------------------------SECCION SERVICIOS------------------------------------------------------------*/
+
+.pre-item {
+    margin-bottom: 80px;
+}
+
+.item {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(114, 114, 114, 0.15);
+    padding: 30px;
+    margin: 30px 0px;
+}
+
+.item:hover {
+    transform: scale(1.060);
+    transition: ease-in-out 1s;
+}
+
+.item img,
+.item h3,
+.item p {
+    margin: 20px 0px;
+}
+
+
+/*-------------------------------------------------------SECCION SERVICIOS------------------------------------------------------------*/
+
+.input a input {
+    width: 328px;
+    height: 48px;
+    left: 335px;
+    top: 573px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box
+}
