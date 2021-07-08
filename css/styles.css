@@ -161,11 +161,17 @@ color: #9ACEA8;
 font-weight: bold;
 }
 
+.lista{
+    list-style: none;
+    text-direction:left; 
+}
+
 
 .testimonios {
     margin-top: 64px;
     margin-bottom: 64px;
 }
+
 
 .frase {
     margin-left: 102px;
@@ -214,7 +220,12 @@ font-weight: bold;
 }
 
 .nosotros {
-    margin-top: 124px;
+    margin-top: 100px;
+}
+
+.integrantes{
+    background-color:#B7E0F7;
+    padding: 60px;
 }
 
 div.row {
@@ -222,13 +233,8 @@ div.row {
     margin-left: 0px;
 }
 
-div.container-fluid {
-    padding: 0px;
-}
 
-.texto {
-    margin-top: 64px;
-}
+
 
 .texto1 {
     font-family: Alegreya Sans;
@@ -238,30 +244,6 @@ div.container-fluid {
     color: #000000;
 }
 
-.equipo {
-    font-family: Alegraya Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 35px !important;
-    line-height: 50px;
-    margin-top: 64px;
-    /* or 143% */
-    text-align: center;
-    color: #000000;
-}
-
-.seccion {
-    margin-bottom: 111px;
-    margin-top: 64px;
-    background: #b7e0f7;
-}
-
-.rounded-circle {
-    margin-left: 126px;
-    margin-right: 127px;
-    margin-top: 179px;
-    margin-bottom: 346px;
-}
 
 
 /*Estilos sobre servicios*/
@@ -326,7 +308,7 @@ a i:hover {
 }
 
 
-/*-------------------------------------------------------SECCION SERVICIOS------------------------------------------------------------*/
+/*-------------------------------------------------------SECCION CONTACTO------------------------------------------------------------*/
 
 .input a input {
     width: 328px;
