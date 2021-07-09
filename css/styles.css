@@ -73,7 +73,7 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 50vh;
+    height: 60vh;
     width: 100%;
 }
 
@@ -161,10 +161,6 @@ color: #9ACEA8;
 font-weight: bold;
 }
 
-.lista{
-    list-style: none;
-    text-direction:left; 
-}
 
 
 .testimonios {
