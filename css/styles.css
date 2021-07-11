@@ -61,7 +61,7 @@ img {
     font-family: IBM Plex Serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 45px;
+    font-size: 35px;
     line-height: 56px;
     text-align: center;
     color: #000000;
@@ -73,7 +73,7 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 50vh;
+    height: 60vh;
     width: 100%;
 }
 
@@ -123,10 +123,7 @@ h6 {
 .texto_inicio {
     font-family: Manrope;
     font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 22px;
-    margin-top: 40px;
+    font-size: 15px;
     /* or 139% */
     color: #000000;
 }
@@ -134,14 +131,11 @@ h6 {
 .texto_inicio1 {
     font-family: Manrope;
     font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 22px;
-    margin-top: 40px;
-    margin-right: 73px;
+    font-size: 15px;
     /* or 139% */
     color: #000000;
 }
+
 
 .enunciados, .number-edit {
     font-family: IBM Plex Serif;
@@ -162,11 +156,15 @@ font-size: 30px;
 color: #9ACEA8;
 font-weight: bold;
 }
+@media (min-width:1024px ) {
+    .pre-grid{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 20px;
+    }
+ }
 
-.lista{
-    list-style: none;
-    text-direction:left; 
-}
+
 
 
 .testimonios {
@@ -188,7 +186,6 @@ font-weight: bold;
 }
 
 .texto-testimonios {
-    margin-top: 34px;
     font-family: Manrope;
     font-style: normal;
     font-weight: 500;
@@ -202,7 +199,6 @@ font-weight: bold;
 .card {
     box-shadow: 0px 4px 20px rgba(114, 114, 114, 0.15);
 }
-
 
 /*-------------------------------------------------------SECCION SOBRE NOSOTROS-----------------------------------------------------------*/
 
@@ -241,7 +237,6 @@ div.row {
 .texto1 {
     font-family: Alegreya Sans;
     font-style: normal;
-    font-size: 20px;
     line-height: 26px;
     color: #000000;
 }
@@ -294,9 +289,10 @@ a i:hover {
 .item {
     background: #FFFFFF;
     box-shadow: 0px 4px 20px rgba(114, 114, 114, 0.15);
-    padding: 30px;
-    margin: 30px 0px;
+    padding: 20px;
+    margin: 30px 20px;
 }
+
 
 .item:hover {
     transform: scale(1.060);
