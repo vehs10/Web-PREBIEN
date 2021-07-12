@@ -61,7 +61,7 @@ img {
     font-family: IBM Plex Serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 45px;
+    font-size: 38px;
     line-height: 56px;
     text-align: center;
     color: #000000;
@@ -121,7 +121,7 @@ h6 {
 }
 
 .texto_inicio {
-    font-family: Manrope;
+    font-family: IBM Plex Serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -129,19 +129,11 @@ h6 {
     margin-top: 40px;
     /* or 139% */
     color: #000000;
+}
+.titulo-quehacemos{
+    font-family: IBM Plex Serif;
 }
 
-.texto_inicio1 {
-    font-family: Manrope;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 22px;
-    margin-top: 40px;
-    margin-right: 73px;
-    /* or 139% */
-    color: #000000;
-}
 
 .enunciados, .number-edit {
     font-family: IBM Plex Serif;
@@ -154,6 +146,18 @@ h6 {
     text-align: center;
     color: #000000;
 
+}
+
+.enunciados-lugares {
+    font-family: IBM Plex Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 35px;
+    margin-bottom: 44px;
+    margin-top: 44px;
+    text-align: center;
+    color: #000000;
 }
 
 
@@ -183,8 +187,8 @@ margin: 30px 0px;
 
 
 .frase {
-    margin-left: 102px;
-    margin-right: 102px;
+    margin-left: 50px;
+    margin-right: 50px;
     font-family: Manrope;
     font-style: normal;
     font-weight: 500;
@@ -244,6 +248,7 @@ div.row {
 
 
 .texto1 {
+    font-size: 18px;
     font-family: Alegreya Sans;
     font-style: normal;
     line-height: 26px;
